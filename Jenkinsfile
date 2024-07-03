@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('bye') {
             steps {
-                echo "$username"
+                echo "bye $username"
             }
         }
     }
